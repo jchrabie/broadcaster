@@ -12,3 +12,7 @@ q {
   font-style: italic;
   quotes: "« " " »";
 }
+
+::ng-deep .mat-pseudo-checkbox {
+  display: none!important;
+}

@@ -19,4 +19,7 @@
       </mat-card-actions>
     </mat-card-content>
   </mat-card>
+  <mat-selection-list role="list" *ngIf="foods.length">
+    <mat-list-option *ngFor="let food of foods">{{food}}</mat-list-option>
+  </mat-selection-list>
 </div>

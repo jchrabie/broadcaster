@@ -33,7 +33,7 @@ export class ShellComponent implements OnInit {
         map(state => state ? this._filteredFoods(state) : this.foods.slice())
       );
 
-    this.broadcasterService.on('favoriteFood').subscribe(() => this.foodCtrl.setValue(''));
+    this.broadcasterService.on('favoriteFood').subscribe(food => this.foodCtrl.setValue(food));
   }
 
   ngOnInit() {
