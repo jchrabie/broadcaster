@@ -9,6 +9,9 @@ import { SharedModule } from '@app/shared';
 import { MaterialModule } from '@app/material.module';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
+import { FormsModule } from '@angular/forms';
+import { CardComponent } from './card/card.component';
+import { ListComponent } from './list/list.component';
 
 @NgModule({
   imports: [
@@ -18,9 +21,10 @@ import { HomeComponent } from './home.component';
     SharedModule,
     FlexLayoutModule,
     MaterialModule,
+    FormsModule,
     Angulartics2Module,
     HomeRoutingModule
   ],
-  declarations: [HomeComponent]
+  declarations: [HomeComponent, CardComponent, ListComponent]
 })
 export class HomeModule {}

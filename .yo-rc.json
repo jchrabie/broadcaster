@@ -7,10 +7,8 @@
       "skipInstall": false,
       "skipQuickstart": false,
       "initGit": true,
-      "appName": "broadcaterExample",
-      "target": [
-        "web"
-      ],
+      "appName": "broadcasterExample",
+      "target": ["web"],
       "pwa": false,
       "ui": "material",
       "layout": "side-menu",
@@ -19,15 +17,9 @@
       "angulartics": true,
       "analyticsProvider": "ga",
       "googleAnalyticsAccount": "",
-      "tools": [
-        "prettier",
-        "hads"
-      ],
-      "utility": [
-        "lodash",
-        "moment"
-      ],
-      "projectName": "broadcater-example",
+      "tools": ["prettier", "hads"],
+      "utility": ["lodash", "moment"],
+      "projectName": "broadcaster-example",
       "packageManager": "npm",
       "mobile": [],
       "desktop": []

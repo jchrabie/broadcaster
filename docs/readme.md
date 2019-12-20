@@ -1,4 +1,4 @@
-# broadcaterExample
+# broadcasterExample
 
 Welcome to the project documentation!
 

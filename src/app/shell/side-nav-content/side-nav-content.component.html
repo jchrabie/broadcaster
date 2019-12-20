@@ -1,14 +1,2 @@
-<mat-toolbar color="primary" class="mat-elevation-z6">
-    <button class="menu-button" mat-icon-button (click)="sidenav.toggle()">
-    <mat-icon>menu</mat-icon>
-    </button>
-    <span>{{ title }}</span>
-    
-    <mat-chip-list #chipList>
-        <mat-chip *ngIf="favoriteFood$ | async as food" removable="true" (removed)="removeFood()">
-            {{food}}
-            <mat-icon matChipRemove>cancel</mat-icon>
-        </mat-chip>
-    </mat-chip-list>
-</mat-toolbar>
+<app-title [sidenav]="sidenav"></app-title>
 <router-outlet></router-outlet>
